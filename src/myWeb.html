@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="myWeb.css">
+    <script src="../Library/jQueryMini.js"></script>
+</head>
+<body>
+    <h2>获取时间失败</h2>
+    <span>
+        <p id="presentTime">获取时间失败</p><br>
+    </span>
+    <span>
+        <!-- table1自选背景案例 -->
+        <span>可选顶部图片：</span>
+        <ul id="table1">
+            <li>
+                <img class='backGroundImg' src="../Pictures/BG1.jpg" alt="">
+            </li>
+            <li>
+                <img class='backGroundImg' src="../Pictures/BG2.jpg" alt="">
+            </li>
+            <li>
+                <img class='backGroundImg' src="../Pictures/BG3.jpg" alt="">
+            </li>
+            <li>
+                <img class='backGroundImg' src="../Pictures/BG4.jpg" alt="">
+            </li>
+            <li>
+                <img class='backGroundImg' src="../Pictures/BG5.jpg" alt="">
+
+            </li>
+        </ul>
+    </span>
+    
+    <div class="box">
+        <ul>
+            <li>日程表</li>
+            <li>待添加功能</li>
+            <li>待添加功能</li>
+            <li>待添加功能</li>
+        </ul>
+    </div>
+    <div class="box1">
+        <div class="showBox">
+            <div id="container">
+                <div>
+                    <span><h2>ToDoList</h2></span>
+                    <input type="text" id="listText" placeholder="输入待办事项">
+                </div>
+            </div>
+            <div id="listBox">
+                <h2>正在进行</h2>
+                <span class="count">X</span>
+                <ol id="doing">
+                    <li>
+                        <input type="checkbox" class="check">
+                        <p>这是一个样例</p>
+                        <a href=""></a>
+                    </li>
+                </ol>
+                <h2>已经完成</h2>
+                <span class="count">X</span>
+                <ul id="fin">
+
+                </ul>
+            </div>
+        </div>
+        <div class="showBox">showBox2</div>
+        <div class="showBox">showBox3</div>
+        <div class="showBox">showBox4</div>
+    </div>
+    <div class="helper">
+        <h3>使用说明：</h3>
+        <button>X</button>
+        <p>1.在标题"ToDoList"右方输入新待办事项,回车添加到"正在进行"</p>
+        <p>2."正在进行"中的待办事项完成后,在该事项左边勾选框打勾代表完成,该事项自动被收入到"已经完成"</p>
+        <p>3.两个板块的事件可以通过勾选框相互传递事项</p>
+        <p>4.想要去掉事项,点击其右侧灰黑色方块即可</p>
+    </div>
+
+    <script src="myWeb.js"></script>
+    
+</body>
+</html>
