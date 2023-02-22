@@ -166,7 +166,7 @@ $(function () {
         $("#fin").prepend(
           "<li><input type='checkbox' class='check' checked='checked'><p>" +
             n.title +
-            "</p><a id='" +
+            "</p><a href='javascript:;' id='" +
             i +
             "'></a></li>"
         );
@@ -174,7 +174,7 @@ $(function () {
         $("#doing").prepend(
           "<li><input type='checkbox' class='check'><p>" +
             n.title +
-            "</p><a id='" +
+            "</p><a href='javascript:;' id='" +
             i +
             "'></a></li>"
         );
